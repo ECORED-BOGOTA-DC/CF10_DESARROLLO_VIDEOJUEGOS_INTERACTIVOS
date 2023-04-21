@@ -1,7 +1,8 @@
 export default {
   global: {
     componenteFormativo: 'Verificación y ajustes de funcionalidad',
-    descripcionCurso: 'El componente de formación presentado describe la forma de verificar el funcionamiento del prototipo digital elaborado, aplicando metodologías ágiles y herramientas propias del motor de Unity.',
+    descripcionCurso:
+      'El componente de formación presentado describe la forma de verificar el funcionamiento del prototipo digital elaborado, aplicando metodologías ágiles y herramientas propias del motor de Unity.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
