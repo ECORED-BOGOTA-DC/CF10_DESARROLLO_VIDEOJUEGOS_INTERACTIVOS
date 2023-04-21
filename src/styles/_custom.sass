@@ -1,15 +1,6 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+.banner-principal__row .banner-principal__img
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: relative
 
 @keyframes float1
   0%
@@ -17,3 +8,27 @@
 
   100%
     transform: translateY(0px)
+
+.dual-txt-deco
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 20%
+    height: 26%
+    background-color: #E1DDFC
+    z-index: 0
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-position: bottom
+    margin-bottom: -48px
+
+.txt
+  &-c1
+    color: #524892
