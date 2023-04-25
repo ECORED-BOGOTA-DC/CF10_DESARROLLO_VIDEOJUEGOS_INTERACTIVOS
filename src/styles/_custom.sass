@@ -21,6 +21,33 @@
     background-color: #E1DDFC
     z-index: 0
 
+.dual-txt-deco1
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 40%
+    height: 80%
+    background-color: #FCEFD6
+    z-index: 0
+
+figcaption
+  background-color: #F1EFFE
+
+.tarjeta.color-primario
+  background-color: #D9FAFE
+  p
+    color: #12263F
+
+.tarjeta.color-acento-contenido
+  background-color: #F9F7EC
+
+.tabla-b td, .tabla-b th
+  padding: 6px
+  border: 2px solid #e8e8e8
+
 .bg
   &-c1
     background-image: url(../assets/curso/intro/img1.svg)
@@ -28,6 +55,39 @@
     margin-inline: -3.2rem !important
     background-position: bottom
     margin-bottom: -48px
+  &-c2
+    background-color: #F1EFFE
+  &-c3
+    background-color: #ECEAFC
+  &-c4
+    background-color: #F8F7FE
+  &-c5
+    background-image: url(../assets/curso/tema1/img9.svg)
+    background-repeat: no-repeat
+    background-position-y: 10px
+    background-position-x: center
+    height: 195px
+    margin-inline: -3.2rem !important
+    @media screen and ( max-width: $bp-max-lg )
+      height: auto
+      background-image: none
+      background-color: #D9F3FA
+  &-c6
+    background-image: url(../assets/curso/tema1/img12.svg)
+    background-repeat: no-repeat
+    background-position-x: center
+  &-c7
+    background-color: #fafdf9
+    background-image: linear-gradient(180deg, #fafdf9 0%, #fdf6e7 100%)
+    border-radius: 15px
+  &-c8
+    background-image: url(../assets/curso/tema1/img14.svg)
+    background-repeat: no-repeat
+    background-position-y: center
+    @media screen and ( max-width: $bp-max-lg )
+      background-image: none
+      background-color: #F9E5BE
+      border-radius: 15px
 
 .txt
   &-c1
