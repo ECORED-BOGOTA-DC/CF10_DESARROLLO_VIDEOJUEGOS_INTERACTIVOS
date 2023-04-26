@@ -2,29 +2,29 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 1
       h1 Diseño del ciclo de iteraciones - #[i backlog]
-    p.mb-4 Según García (2019) #[i backlog] es una palabra de origen inglés que significa una pila de tareas almacenadas que están esperando para ser evacuadas, igualmente, este término es usado cuando se define el ciclo de vida de un sistema de información en sus fases de análisis, diseño, desarrollo e implementación, también está asociado a metodologías de trabajo ágiles para el desarrollo y entrega de productos en menor tiempo y con mayor eficiencia.
+    p.mb-4(data-aos="fade-right") Según García (2019) #[i backlog] es una palabra de origen inglés que significa una pila de tareas almacenadas que están esperando para ser evacuadas, igualmente, este término es usado cuando se define el ciclo de vida de un sistema de información en sus fases de análisis, diseño, desarrollo e implementación, también está asociado a metodologías de trabajo ágiles para el desarrollo y entrega de productos en menor tiempo y con mayor eficiencia.
     .row.align-items-center.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width:600px").m-auto
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .row.mb-4
           .col-12.bg-c2
             .p-4
               p.mb-0 En el contexto del método ágil el diseño de los ciclos de trabajo o iteraciones se acuña el término #[b #[i “Product backlog”]], el cual García define como una lista ordenada y priorizada de tareas a ejecutar en un periodo de tiempo corto para completar un entregable del producto y los ciclos se repiten hasta que se obtenga el producto final.
         p.mb-0 El #[i backlog] que se observa en la Figura 1, está ordenado de acuerdo con las funciones o requisitos más importantes considerados por el cliente o dueño del producto y colocados en la parte superior del #[i backlog], dejando en la base los de menor relevancia:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1]. #[i Backlog]
         figure
           img(src='@/assets/curso/tema1/img1.svg').m-auto
           figcaption.mt-4 Nota. Adaptado del Conjunto de tareas priorizadas del #[i backlog], García (2019).
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img2.svg' alt='AvatarTop')
@@ -44,7 +44,7 @@
             .p-4
               p.text-center.mb-0 Durante el ciclo iterativo se puede decidir que un requisito no se va a ejecutar y se puede eliminar tranquilamente de la pila de requisitos o adicionar uno que no se había tenido en cuenta para completar la entrega.
     .row.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .dual-txt-deco1
           p(style="position: relative; z-index: 2") El #[i backlog] se materializa en un documento que contiene los requisitos necesarios para obtener el producto final esperado por el cliente. Los aspectos que lo caracterizan se pueden resumir a continuación:
         ul.lista-ul--color.lista-ul
@@ -66,11 +66,11 @@
           li 
             i.fas.fa-gamepad(style="color: #8979F3")
             | Cada ítem del #[i backlog] debe ser independiente uno del otro para poder cambiar el orden de ejecución si así se requiere. 
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img2.png', style="width:550px").m-auto
-    p.mb-5 Cuando se desarrolla un videojuego utilizando metodologías ágiles como por ejemplo SCRUM se debe tener en cuenta:
-    .row.justify-content-center.mb-4
+    p.mb-5(data-aos="fade-up") Cuando se desarrolla un videojuego utilizando metodologías ágiles como por ejemplo SCRUM se debe tener en cuenta:
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-md-8.col-lg-10
         .row.mb-4
           .col-lg-2.bg-c3
@@ -112,7 +112,7 @@
               .row.align-items-center.h-100
                 .col-12
                   p.mb-0 Antes de comenzar cada #[i Sprint], el Scrum Team revisa la lista de ítems a desarrollar, selecciona los ítems del #[i Sprint] definiendo su objetivo y cada persona del equipo asume una responsabilidad sobre los componentes de cada ítem que se compromete a desarrollar, colocando estos elementos en una nueva lista llamada #[i Sprint backlog].
-    .row.bg-c5.mb-5
+    .row.bg-c5.mb-5(data-aos="fade-dow")
       .col-12
         .px-5
           .row
@@ -125,8 +125,8 @@
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img3.png', style="width:450px").m-auto
-    p.mb-5 En el siguiente gráfico se observa el ciclo completo de un #[i Sprint] en la metodología SCRUM:
-    ImagenInfografica.color-acento-botones.mb-5
+    p.mb-5(data-aos="fade-right") En el siguiente gráfico se observa el ciclo completo de un #[i Sprint] en la metodología SCRUM:
+    ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/img11.svg')
@@ -170,14 +170,14 @@
       .col-12.bg-c6
         .row.justify-content-center
           .col-lg-6.mb-4
-            h3.text-center.mt-5.txt-c1 Para la elaboración de los #[i Product blacklog] y los #[i Sprint blacklog] se pueden utilizar diferentes maneras
-          .col-lg-10.mb-4
+            h3.text-center.mt-5.txt-c1(data-aos="fade-right") Para la elaboración de los #[i Product blacklog] y los #[i Sprint blacklog] se pueden utilizar diferentes maneras
+          .col-lg-10.mb-4(data-aos="fade-down")
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
                   span a
                 | Se puede diseñar un formato para elaborar el #[i Product backlog], el cual debe indicar claramente la prioridad y la descripción del ítem que debe desarrollar el #[i Scrum Team], observar  el ejemplo de la tabla a continuación:
-          .col-lg-8.mb-5
+          .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Tabla 1]. Ejemplo #[i Product Backlog]
             .tabla-b.color-acento-contenido.mb-5
@@ -220,13 +220,13 @@
                     .col-lg-3
                       figure
                         img(src='@/assets/curso/tema1/img4.png', style="width:240px").m-auto
-          .col-lg-10.mb-4
+          .col-lg-10.mb-4(data-aos="fade-down")
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
                   span b
                 | También se puede diseñar el formato del #[b #[i Sprint Backlog]] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada Sprint, como se observa en la siguiente tabla:
-          .col-lg-8.mb-5
+          .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Tabla 2]. #[i Sprint Backlog]
             .tabla-b.color-acento-contenido.mb-5
@@ -313,28 +313,28 @@
               .col-lg-6
                 figure
                   img(src='@/assets/curso/tema1/img5.png', style="width:350px").m-auto
-          .col-lg-10.mb-4
+          .col-lg-10.mb-4(data-aos="fade-down")
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
                   span c
                 | Se pueden utilizar herramientas digitales gratuitas como Jira Software para la elaboración de los #[i Product Backlog] y los #[i Sprint Backlog]. Las plantillas son proporcionadas por el programa:
             p En la siguiente figura se observa el #[b #[i Product Backlog]] del juego “La isla de los tesoros escondidos”.
-          .col-lg-8.mb-5
+          .col-lg-8.mb-5(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Figura 2]. Plantilla Jira Software
             figure
               img(src='@/assets/curso/tema1/img6.png').m-auto
               figcaption.mt-3 Nota. #[i Backlog] del juego La isla de los tesoros escondidos.
-          .col-lg-10.mb-4
+          .col-lg-10.mb-4(data-aos="fade-down")
             p Las tareas que se han definido en el #[i Sprint Backlog] el programa lo llama Flujo de trabajo, cuyo objetivo es realizar las funciones del mundo 1. Los estados de las tareas se indican por colores en la convención que se encuentra en la parte superior de la figura:
-          .col-lg-8.mb-5
+          .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Figura 3]. Flujo de trabajo
             figure
               img(src='@/assets/curso/tema1/img7.png').m-auto
               figcaption.mt-3 Nota. Estado de las tareas del #[i Sprint].
-          .col-lg-10.bg-c8.p-4.p-lg-0
+          .col-lg-10.bg-c8.p-4.p-lg-0(data-aos="fade-right")
             .row.align-items-center
               .col-lg-3.mb-4.mb-lg-0
                 figure

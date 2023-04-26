@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 3
       h1 Métricas del videojuego a partir de impresiones de detalles de eventos #[i (debug.log)]
-    .dual-txt-deco2.mb-4
+    .dual-txt-deco2.mb-4(data-aos="fade-right")
       p(style="position: relative; z-index: 2") Es un conjunto de herramientas de análisis que proporcionan información acerca de la experiencia que tienen los usuarios con el uso del producto y de esta forma medir su calidad. Esta información puede ser utilizada para realizar mejoras en todos los aspectos del juego.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         figure
           img(src='@/assets/curso/tema3/img1.png').m-auto
@@ -16,8 +16,8 @@
     #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 3.1 Métricas de Unity
-    p El motor de videojuegos Unity utiliza el sistema Analytics, servicio que se configura automáticamente al ser instalado el programa y que contiene las siguientes métricas:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    p(data-aos="fade-down") El motor de videojuegos Unity utiliza el sistema Analytics, servicio que se configura automáticamente al ser instalado el programa y que contiene las siguientes métricas:
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
       .row(titulo="Métricas del jugador").justify-content-center
         .col-lg-11
           p.mb-0 Proporciona información sobre el número de jugadores que inician una sesión durante las 24 horas del día; con lo cual se pueden obtener las estadísticas del porcentaje mensual de participantes activos tanto nuevos como los que regresan.
@@ -52,8 +52,8 @@
             li 
               i.fas.fa-gamepad(style="color: #8979F3")
               | #[b Segmentos personalizados]: es una categoría de jugadores que se crea combinando reglas de los segmentos anteriores.
-    p Para hacer uso de las métricas de Unity el juego debe estar por lo menos en la versión Beta, en la cual se hacen pruebas de usuario para medir su experiencia. Los pasos a seguir son:
-    .tarjeta.tarjeta--azul1.mb-5
+    p(data-aos="fade-left") Para hacer uso de las métricas de Unity el juego debe estar por lo menos en la versión Beta, en la cual se hacen pruebas de usuario para medir su experiencia. Los pasos a seguir son:
+    .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-right")
       .p-4
         SlyderA
           .row.justify-content-center.align-items-center
@@ -97,7 +97,7 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Método #[i debug.log ]
-    .row.bg-c9.mb-5
+    .row.bg-c9.mb-5(data-aos="fade-right")
       .col-12
         .px-5
           .row
@@ -109,22 +109,22 @@
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema3/img4.png', style="width:270px").m-auto
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 4]. Evento A
         figure
           img(src='@/assets/curso/tema3/img5.png').m-auto
           figcaption.mt-3 Nota. Flujo del evento A. Hektor docs, (2021). Tipos de datos. https://docs.hektorprofe.net/unity/visual-scripting/tipos-datos/
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema2/img1.svg', style="width:50px").m-auto
       .col
         h3.mb-0 Función #[i debug.log]
-    .dual-txt-deco3.mb-5
+    .dual-txt-deco3.mb-5(data-aos="fade-right")
       p(style="position: relative; z-index: 2") El  flujo de transformación se puede imprimir en la ventana de la consola de Unity a través de la función debug.log, como se puede detallar en la siguiente imagen interactiva, donde se observan términos que corresponden a las líneas de código relacionadas con el evento.
-    ImagenInfografica.color-acento-botones.mb-5
+    ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3/img6.svg')
@@ -162,22 +162,22 @@
         .titulo-sexto.color-primario.mb-2
           h3.mb-0 #[i Boolean]
         p.mb-0 Es un tipo de dato lógico que puede asumir dos valores: #[i True] o #[i False].
-    p.mb-5 Obsérvese en la figura que el mensaje en la ventana de la consola indica que el cubo efectivamente ha rotado de una coordenada inicial a una final: “el objeto SI se mueve”:
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") Obsérvese en la figura que el mensaje en la ventana de la consola indica que el cubo efectivamente ha rotado de una coordenada inicial a una final: “el objeto SI se mueve”:
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 5]. Mensajes consola
         figure
           img(src='@/assets/curso/tema3/img6.png').m-auto
           figcaption.mt-3 Nota. Impresión de mensajes del evento A en la ventana de la consola. Hektor docs, (2021). Tipos de datos. https://docs.hektorprofe.net/unity/visual-scripting/tipos-datos/
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema2/img1.svg', style="width:50px").m-auto
       .col
         h3.mb-0 Crear #[i Script]
-    p.mb-4 Cuando se necesita manipular el objeto e imprimir el flujo del evento con mensajes propios se debe crear el #[i Script] mediante los siguientes pasos:
-    .tarjeta.tarjeta--azul1.mb-5
+    p.mb-4(data-aos="fade-right") Cuando se necesita manipular el objeto e imprimir el flujo del evento con mensajes propios se debe crear el #[i Script] mediante los siguientes pasos:
+    .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-left")
       .p-4
         SlyderA
           .row.justify-content-center
@@ -290,7 +290,7 @@
           figure.mb-2
             img(src='@/assets/curso/tema3/img11.png', style="width:750px").m-auto
           p.txt-c3.mb-0 #[i Debug.log] que imprime la bienvenida al juego
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.bg-c8.p-4.p-lg-0
         .row.align-items-center
           .col-lg-3.mb-4.mb-lg-0.pe-0

@@ -126,32 +126,127 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Diseño del ciclo de iteraciones - </em>backlog<em>',
+      referencia:
+        'Deloitte. (s.f). <em>Artefactos Scrum: las 3 herramientas clave de gestión</em>.',
+      tipo: 'Página web',
+      link:
+        'https://www2.deloitte.com/es/es/pages/technology/articles/artefactos-scrum.html',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Prototipado digital con paquetes prefabricados',
+      referencia:
+        'Monteserín, P. (s.f). <em>Instanciar un objeto en Unity 3D</em>.',
+      tipo: 'Blog',
+      link: 'https://pablomonteserin.com/curso/unity-3d/instanciar/',
+    },
+    {
+      tema: 'Prototipado digital con paquetes prefabricados',
+      referencia: 'Unity. Documentation. (2016). <em>Prefabs</em>.',
+      tipo: 'Manual web',
+      link: 'https://docs.unity3d.com/es/530/Manual/Prefabs.html',
+    },
+    {
+      tema:
+        'Métricas del videojuego a partir de impresiones de detalles de eventos (<em>debug.log</em>)',
+      referencia:
+        'Unity. Documentation. (2020). <em>Métricas, segmentos y terminología de Analytics</em>.',
+      tipo: 'Manual web',
+      link:
+        'https://docs.unity3d.com/es/2019.4/Manual/UnityAnalyticsTerminology.html',
+    },
+    {
+      tema:
+        'Métricas del videojuego a partir de impresiones de detalles de eventos (<em>debug.log</em>)',
+      referencia: 'Unity. Documentation. (2021). <em>Depurar</em>.',
+      tipo: 'Manual web',
+      link: 'https://docs.unity3d.com/ScriptReference/Debug.html',
+    },
+    {
+      tema: 'Verificación basada en el modelo SCRUM',
+      referencia: 'Trigas, M. (s.f). <em>Metodología Scrum</em>.',
+      tipo: 'PDF',
+      link:
+        'http://openaccess.uoc.edu/webapps/o2/bitstream/10609/17885/1/mtrigasTFC0612memoria.pdf',
+    },
+    {
+      tema: 'Verificación basada en el modelo SUM',
+      referencia: 'SUM. (s.f). <em>SUM para desarrollo de videojuegos</em>.',
+      tipo: 'Página web',
+      link: 'http://www.gemserk.com/sum/',
+    },
+    {
+      tema:
+        'Verificación y ajustes en entorno de desarrollo (consola, modo edición)',
+      referencia:
+        'Unity Technologies. (2021). <em>Prueba el código de tu juego con Unity Test Framework</em>.',
+      tipo: 'Manual web',
+      link:
+        'https://unity.com/es/how-to/unity-test-framework-video-game-development',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Backlog</em>',
+      significado:
+        'Listado del trabajo pendiente por realizar y ordenado jerárquicamente por prioridad (García, 2019).',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Debug.log</em>',
+      significado:
+        'Método que facilita la depuración mientras se está desarrollando el juego (Unity Documentation, 2021).',
+    },
+    {
+      termino: 'Métricas',
+      significado:
+        'Mecanismos para evaluar e identificar la jugabilidad de un videojuego para detectar si es o no jugable (Gonzáles & Gutiérrez, s.f).',
+    },
+    {
+      termino: 'SCRUM',
+      significado:
+        'Marco de trabajo que sirve para ayudar a generar valor en la solución de problemas complejos a las personas, equipos de trabajo y organizaciones (Schwaber & Sutherland, 2020).',
+    },
+    {
+      termino: 'SUM',
+      significado:
+        'Metodología ágil utilizada para el desarrollo de videojuegos de calidad en menor tiempo y a menor costo, con resultados fácilmente predecibles (Acerenza, et al, 2009).',
+    },
+    {
+      termino: 'Verificación',
+      significado:
+        'Proceso de análisis y pruebas en cada fase del desarrollo del software que consiste en revisión de requisitos, diseño, líneas de código y aplicación de pruebas (Hernández & Pérez, 2017).',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Acerenza, N. Et al. (2009). <em>Una metodología para desarrollo de videojuegos</em>. ',
+      link:
+        'https://www.fing.edu.uy/sites/default/files/biblio/22811/asse_2009_16.pdf',
+    },
+    {
+      referencia: 'García, R. (2019). <em>¿Qué es el Backlog?</em> ',
+      link: 'https://muyagile.com/que-es-el-backlog/',
+    },
+    {
+      referencia:
+        'Gonzáles, J. & Gutiérrez, F. (s.f.). <em>Jugabilidad como medida de calidad en el desarrollo de videojuegos</em>. ',
+      link: 'http://ceur-ws.org/Vol-1196/cosecivi14_submission_23.pdf',
+    },
+    {
+      referencia:
+        'Hernández, A. & Pérez, K. (2017). <em>Criterios para verificar y validar mecanismos en el desarrollo de videojuegos</em>.',
+      link: 'https://zenodo.org/record/2617300/files/n12a1.pdf',
+    },
+    {
+      referencia:
+        'Schwaber, K. & Stherland, J. (2020). <em>La guía de Scrum</em>. ',
+      link:
+        'https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf',
+    },
+    {
+      referencia: 'Unity Documentation. (2021). <em>Depurar</em>. ',
+      link: 'https://docs.unity3d.com/ScriptReference/Debug.html',
     },
   ],
   creditos: [
@@ -164,7 +259,7 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Victoria Morales Gualdron',
           cargo: 'Responsable de línea de producción',
           centro: 'Nombre centro de formación',
         },
@@ -174,9 +269,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Olga Lucía Mogollón Carvajal',
+          cargo: 'Experta temática',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Luz Aída Quintero Velásquez',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico Ecosistema RED',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -189,7 +307,7 @@ export default {
           centro: 'Nombre centro de formación',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Nombre centro de formación',
         },
