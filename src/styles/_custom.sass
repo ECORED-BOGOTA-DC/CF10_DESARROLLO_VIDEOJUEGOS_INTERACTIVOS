@@ -33,6 +33,30 @@
     background-color: #FCEFD6
     z-index: 0
 
+.dual-txt-deco2
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 20%
+    height: 100%
+    background-color: #FCEFD6
+    z-index: 0
+
+.dual-txt-deco3
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 30%
+    height: 80%
+    background-color: #C0F6FC
+    z-index: 0
+
 figcaption
   background-color: #F1EFFE
 
@@ -47,6 +71,31 @@ figcaption
 .tabla-b td, .tabla-b th
   padding: 6px
   border: 2px solid #e8e8e8
+
+.cajon.color-primario
+  background-color: #FCF2DF
+
+.tarjeta--azul
+  background-color: #F2F0FD
+
+.tarjeta.tarjeta--azul.acordion__activo
+  background-image: url(../assets/curso/tema2/img3.svg)
+  background-repeat: no-repeat
+
+.tarjeta.tarjeta--azul1
+  background-image: url(../assets/curso/tema2/img3.svg)
+  background-repeat: no-repeat
+  background-size: cover
+
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: -10px
+
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
+  background-color: #04B1D9
+  border-color: #04B1D9
+
+.pasos-b__header__item__dot
+  background-color: #F1BF5E
 
 .bg
   &-c1
@@ -88,7 +137,22 @@ figcaption
       background-image: none
       background-color: #F9E5BE
       border-radius: 15px
+  &-c9
+    background-image: url(../assets/curso/tema3/img1.svg)
+    background-repeat: no-repeat
+    background-position-y: 10px
+    background-position-x: center
+    height: 195px
+    margin-inline: -3.2rem !important
+    @media screen and ( max-width: $bp-max-lg )
+      height: auto
+      background-image: none
+      background-color: #FCF2DF
 
 .txt
   &-c1
     color: #524892
+  &-c2
+    text-align: right
+  &-c3
+    text-align: center
