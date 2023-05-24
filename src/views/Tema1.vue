@@ -131,40 +131,22 @@
         figure
           img(src='@/assets/curso/tema1/img11.svg')
       .tarjeta.color-acento-contenido.p-3(x="1%" y="20%" numero="1")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Product Owner]
         p.mb-0 Se responsabiliza de elaborar con el cliente la lista de características o requisitos principales que ha de tener el videojuego o #[i Product Backlog].
       .tarjeta.color-acento-contenido.p-3(x="14%" y="50%" numero="2")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Development Team]
         p.mb-0 El equipo desarrollador del producto, observando la lista que determina los items a ejecutar por cada #[i Sprint], comprometiéndose cada miembro con tareas específicas por desarrollar, lo que genera una nueva lista o #[i Sprint Backlog].
       .tarjeta.color-acento-contenido.p-3(x="10%" y="80%" numero="3")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Scrum Master]
         p.mb-0 Se asegura de que haya claridad sobre los objetivos y el alcance del producto a desarrollar e igualmente elimina cualquier impedimento para maximizar la productividad.
       .tarjeta.color-acento-contenido.p-3(x="27%" y="30%" numero="4")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Product Owner]
-        p.mb-0 Se responsabiliza de elaborar con el cliente la lista de características o requisitos principales que ha de tener el videojuego o #[i Product Backlog].
+        p.mb-0 Contiene la lista de los elementos que han priorizado el cliente con el #[i Product Owner], refinando los detalles para que los desarrolladores ejecuten en el menor tiempo posible los ítems de la lista.
       .tarjeta.color-acento-contenido.p-3(x="50%" y="50%" numero="5")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Sprint Planning Meeting]
         p.mb-0 El equipo reunido realiza la planeación del #[i Sprint] determinando el tiempo que durará de acuerdo con la lista del #[i Sprint Backlog].
       .tarjeta.color-acento-contenido.p-3(x="47%" y="10%" numero="6")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Daily Scrum]
         p.mb-0 Se realiza una reunión diariamente para asegurarse de que el proceso se está llevando a cabo satisfactoriamente.
       .tarjeta.color-acento-contenido.p-3(x="83%" y="20%" numero="7")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Sprint review meeting]
         p.mb-0 Se revisa el objetivo y el alcance del #[i Sprint] donde se verifica que las tareas que se están desarrollando, están dando cumplimiento a los ítems del #[i Product Backlog].
       .tarjeta.color-acento-contenido.p-3(x="90%" y="50%" numero="8")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Sprint Retrospective]
         p.mb-0 Cada día se realiza una retrospectiva del trabajo realizado para identificar los puntos clave en los que se puede mejorar la productividad.
       .tarjeta.color-acento-contenido.p-3(x="92%" y="81%" numero="9")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Software Increment]
         p.mb-0 Al finalizar el #[i Sprint] se obtiene una parte que incrementa las características definidas para el producto final.
     .row
       .col-12.bg-c6
@@ -225,7 +207,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span b
-                | También se puede diseñar el formato del #[b #[i Sprint Backlog]] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada Sprint, como se observa en la siguiente tabla:
+                | También se puede diseñar el formato del #[b #[i Sprint Backlog]] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada #[i Sprint], como se observa en la siguiente tabla:
           .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Tabla 2]. #[i Sprint Backlog]
@@ -234,20 +216,20 @@
                 tr
                   th.text-center(rowspan="4" style="background-color: #8979F3").text-white Objetivo Sprint #1
                   th.text-center(rowspan="4" colspan="3" style="background-color: #8979F3").text-white Realizar las funciones del mundo 1
-                  th(colspan="2" style="background-color: #8979F3").text-white Fecha inicio del Sprint
+                  th(colspan="2" style="background-color: #8979F3").text-white Fecha inicio del #[i Sprint]
                   td(style="background-color: #FFFFFF").text-center dd/mm/aaaa
                 tr
-                  th(colspan="2" style="background-color: #8979F3").text-white Fecha final del Sprint
+                  th(colspan="2" style="background-color: #8979F3").text-white Fecha final del #[i Sprint]
                   td(style="background-color: #FFFFFF").text-center dd/mm/aaaa
                 tr
-                  th(colspan="2" style="background-color: #8979F3").text-white Nº de días del Sprint
+                  th(colspan="2" style="background-color: #8979F3").text-white Nº de días del #[i Sprint]
                   td(style="background-color: #FFFFFF").text-center 30
                 tr
                   th(colspan="2" style="background-color: #8979F3").text-white Nº horas de trabajo x día
                   td(style="background-color: #FFFFFF").text-center 8
                 tr(style="background-color: #D6D0FB")
-                  th(colspan="2").text-center Ítem del Product Backlog
-                  th.text-center Prioridad en el Product Backlog
+                  th(colspan="2").text-center Ítem del #[i Product Backlog]
+                  th.text-center Prioridad en el #[i Product Backlog]
                   th.text-center Horas estimadas totales
                   th.text-center Horas de trabajo/día
                   th.text-center Responsable
@@ -328,7 +310,7 @@
               figcaption.mt-3 Nota. #[i Backlog] del juego La isla de los tesoros escondidos.
           .col-lg-10.mb-4(data-aos="fade-down")
             p Las tareas que se han definido en el #[i Sprint Backlog] el programa lo llama Flujo de trabajo, cuyo objetivo es realizar las funciones del mundo 1. Los estados de las tareas se indican por colores en la convención que se encuentra en la parte superior de la figura:
-          .col-lg-8.mb-5(data-aos="fade-left")
+          .col-lg-10.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Figura 3]. Flujo de trabajo
             figure

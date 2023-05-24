@@ -10,7 +10,7 @@
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         p Los prefabricados o #[i prefabs] como se les conoce en los prototipos de los videojuegos son un tipo de #[i asset] que guardan copias de objetos a los que se les ha colocado características y propiedades que pueden ser reutilizadas en el videojuego cuantas veces sea necesario. Los #[i prefabs] actúan como plantillas que se pueden utilizar en cualquier momento para no repetir las características de un objeto.
         .cajon.color-primario.p-4
-          p.mb-0 Se debe recordar que los asset son cualquier tipo de recurso que se utilice en el videojuego como, por ejemplo, luces, sistema de partículas, imágenes, texturas, materiales, sonidos, objetos dentro del escenario como rocas, pasto, entre otros.
+          p.mb-0 Se debe recordar que los #[i asset] son cualquier tipo de recurso que se utilice en el videojuego como, por ejemplo, luces, sistema de partículas, imágenes, texturas, materiales, sonidos, objetos dentro del escenario como rocas, pasto, entre otros.
       .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img1.png', style="width:600px").m-auto
@@ -27,7 +27,7 @@
             figure
               img(src='@/assets/curso/tema2/img2.png', style="width:450px").m-auto
           .col-12
-            p Cuando se habla de paquetes prefabricados se hace referencia a que no es necesario crear los prefabs, sino que ya el sector de la industria de videojuegos ha desarrollado una serie de objetos que pueden ser utilizados de manera libre o paga, si lo que se busca no está dentro los que se pueden descargar de manera gratuita.
+            p Cuando se habla de paquetes prefabricados se hace referencia a que no es necesario crear los #[i prefabs], sino que ya el sector de la industria de videojuegos ha desarrollado una serie de objetos que pueden ser utilizados de manera libre o paga, si lo que se busca no está dentro los que se pueden descargar de manera gratuita.
       .col-md-8.col-lg-4.mb-4
         .row
           .col-12.mb-4
@@ -41,18 +41,18 @@
             figure
               img(src='@/assets/curso/tema2/img4.png', style="width:450px").m-auto
           .col-12
-            p Si se está utilizando el motor de Unity para diseñar y desarrollar un juego, desde las opciones del menú el programa permite la creación de prefabs o la importación de paquetes prefabricados estándar e igualmente gratuitos o comprados de los que ofrece la tienda Unity Asset Store.
+            p Si se está utilizando el motor de Unity para diseñar y desarrollar un juego, desde las opciones del menú el programa permite la creación de #[i prefabs] o la importación de paquetes prefabricados estándar e igualmente gratuitos o comprados de los que ofrece la tienda Unity Asset Store.
     .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema2/img2.svg', style="width:50px").m-auto
       .col
-        h3.mb-0 Crear un prefabs desde las opciones del menú de Unity
+        h3.mb-0 Crear un #[i prefabs] desde las opciones del menú de Unity
     p.mb-4(data-aos="fade-right") Para este #[i prefabs] se  va a suponer que la escena necesita varios cubos iguales colocados en el mismo espacio, para lo cual se debe crear un #[i prefabs] del cubo de acuerdo con los siguientes pasos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
       .row(titulo="Crear el objeto").justify-content-center
         .col-lg-11
-          p Desde el menú en la opción GameObject se va a seleccionar un objeto 3D que corresponde al cubo:
+          p Desde el menú en la opción #[i GameObject] se va a seleccionar un objeto 3D que corresponde al cubo:
           ul.lista-ul--color.lista-ul
             li 
               i.fas.fa-gamepad(style="color: #8979F3")
@@ -61,7 +61,7 @@
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-2
                 img(src='@/assets/curso/tema2/img5.png', style="width:650px").m-auto
-              p.txt-c2.mb-0 Creando un GameObject en Unity
+              p.txt-c2.mb-0 Creando un #[i GameObject] en Unity
             .col-lg-8
               figure.mb-2
                 img(src='@/assets/curso/tema2/img6.png', style="width:750px").m-auto
@@ -120,14 +120,14 @@
           img(src='@/assets/curso/tema2/img2.svg', style="width:50px").m-auto
       .col
         h3.mb-0 Importar un paquete prefabricado estándar
-    p.mb-4(data-aos="fade-right") El motor de Unity tiene incorporados asset que actúan como recursos prefabricados llamados activos estándar, los cuales facilitan la creación de una escena, proporcionando elementos tales como medio ambiente, personajes y sistemas de partículas entre otros:
+    p.mb-4(data-aos="fade-right") El motor de Unity tiene incorporados #[i asset] que actúan como recursos prefabricados llamados activos estándar, los cuales facilitan la creación de una escena, proporcionando elementos tales como medio ambiente, personajes y sistemas de partículas entre otros:
     .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-left")
       .p-4
         SlyderA
           .row.justify-content-center
             .col-lg-5.mb-4.mb-lg-0
               h3 Importar paquete
-              p Cuando se ha creado el proyecto en el programa Unity se podrá incorporar cualquiera de estos asset accionando del menú la opción Assets, clic en importar paquete y seleccionar uno de la lista desplegable; en este caso se incorporará el paquete de medio ambiente:
+              p Cuando se ha creado el proyecto en el programa Unity se podrá incorporar cualquiera de estos #[i asset] accionando del menú la opción #[i Assets], clic en importar paquete y seleccionar uno de la lista desplegable; en este caso se incorporará el paquete de medio ambiente:
               p Menu -> Assets -> Import Package -> Environment
               a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                 span Ampliar imagen

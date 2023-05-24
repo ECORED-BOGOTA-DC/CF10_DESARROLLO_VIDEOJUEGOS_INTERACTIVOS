@@ -130,41 +130,27 @@
           img(src='@/assets/curso/tema3/img6.svg')
           figcaption Nota. adaptado de la Utilización de la función debug.log para inspeccionar el evento A. Hektor docs, (2021). Tipos de datos. https://docs.hektorprofe.net/unity/visual-scripting/tipos-datos/
       .tarjeta.color-acento-contenido.p-3(x="88%" y="31%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Transform Translate]
         p.mb-0 Hace referencia a los datos de las coordenadas finales o de llegada del objeto.
       .tarjeta.color-acento-contenido.p-3(x="66%" y="31%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Transform Rotate]
         p.mb-0 Hace referencia a los datos de las coordenadas iniciales o de partida del objeto.
       .tarjeta.color-acento-contenido.p-3(x="42%" y="21.2%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Debug.log]
         p.mb-0 La función #[i debug.log] imprime el mensaje correspondiente en la consola, dependiendo del comportamiento del evento.
       .tarjeta.color-acento-contenido.p-3(x="27.8%" y="30.9%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i If]
         p.mb-0 Cumplimiento de una condición.
         p.mb-0 Para este caso del evento A, la condición es que la variable sea verdadera para que el cubo haga la rotación; de lo contrario no rota.
       .tarjeta.color-acento-contenido.p-3(x="24.3%" y="6.6%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i String]
         p.mb-0 Corresponde a datos de tipo carácter, es decir, la escritura del mensaje “El objeto SÍ se mueve” o “El Objeto NO se mueve”.
       .tarjeta.color-acento-contenido.p-3(x="30.4%" y="85%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i String]
         p.mb-0 Corresponde a datos de tipo carácter, es decir, la escritura del mensaje “El objeto SÍ se mueve” o “El Objeto NO se mueve”.
       .tarjeta.color-acento-contenido.p-3(x="16.8%" y="25.3%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Update]
         p.mb-0 Corresponde al modo de actualización de los eventos o acciones del juego.
       .tarjeta.color-acento-contenido.p-3(x="13.1%" y="69.6%" numero="+")
-        .titulo-sexto.color-primario.mb-2
-          h3.mb-0 #[i Boolean]
         p.mb-0 Es un tipo de dato lógico que puede asumir dos valores: #[i True] o #[i False].
+      .tarjeta.color-acento-contenido.p-3(x="31%" y="54%" numero="+")
+        p.mb-0 Se cumple la condición si el valor de la variable #[i Boolean] es #[b #[i True]], si es #[b #[i False]] no ocurre nada.
     p.mb-5(data-aos="fade-right") Obsérvese en la figura que el mensaje en la ventana de la consola indica que el cubo efectivamente ha rotado de una coordenada inicial a una final: “el objeto SI se mueve”:
     .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-lg-8
+      .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 5]. Mensajes consola
         figure
@@ -220,7 +206,7 @@
               .row.align-items-center
                 .col-lg-6.mb-4.mb-lg-0
                   h3 Código del #[i Script]
-                  p Para visualizar mejor las líneas de código se abre el editor Visual Studio y se escriben las líneas de código. Se observa #[b #[i public class Mensajes]], que indica que se ha creado un #[i Script] que puede ser utilizado sin restricción en diferentes GameObjects del juego, porque se ha declarado de clase pública. La línea de código #[b #[i Debug.Log](“Bienvenid@ a la escena del Juego”)] indica que se imprimirá este texto en la consola al aplicar el #[i Script] a un #[i GameObject] de la escena y se active el juego.
+                  p Para visualizar mejor las líneas de código se abre el editor Visual Studio y se escriben las líneas de código. Se observa #[b #[i public class Mensajes]], que indica que se ha creado un #[i Script] que puede ser utilizado sin restricción en diferentes #[i GameObjects] del juego, porque se ha declarado de clase pública. La línea de código #[b #[i Debug.Log](“Bienvenid@ a la escena del Juego”)] indica que se imprimirá este texto en la consola al aplicar el #[i Script] a un #[i GameObject] de la escena y se active el juego.
                   a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
                     span Ampliar imagen
                     |
@@ -270,19 +256,19 @@
       .row
         .col-12.p-4
           figure.mb-2
-            img(src='@/assets/curso/tema3/img8.png', style="width:750px").m-auto
+            img(src='@/assets/curso/tema3/img8.png', style="width:950px").m-auto
           p.txt-c3.mb-0 #[i Script] para imprimir los eventos en la consola
     ModalA(:abrir-modal.sync="modal5")
       .row
         .col-12.p-4
           figure.mb-2
-            img(src='@/assets/curso/tema3/img9.png', style="width:750px").m-auto
+            img(src='@/assets/curso/tema3/img9.png', style="width:850px").m-auto
           p.txt-c3.mb-0 Se anexó la función #[i Debug.Log]
     ModalA(:abrir-modal.sync="modal6")
       .row
         .col-12.p-4
           figure.mb-2
-            img(src='@/assets/curso/tema3/img10.png', style="width:750px").m-auto
+            img(src='@/assets/curso/tema3/img10.png', style="width:780px").m-auto
           p.txt-c3.mb-0 Aplicación del #[i Script Mensajes] a un #[i GameObject] de la escena. Unity
     ModalA(:abrir-modal.sync="modal7")
       .row
