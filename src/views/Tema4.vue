@@ -124,7 +124,7 @@
       p(style="position: relative; z-index: 2") La verificación de un videojuego desarrollado en el motor Unity consiste en la comprobación de la calidad y el funcionamiento de sus mecánicas, así como de los elementos y los recursos utilizados en él. Para ello, el programa tiene incorporado un paquete #[i Package Manager] que puede utilizar el desarrollador para realizar las pruebas que necesita.
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5tMXivm3xfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos="fade-right") Los desarrolladores pueden crear pruebas para testear cualquier cosa en los objetos que han colocado en una escena del juego. En el siguiente ejemplo se observa una escena que contiene una esfera de color verde encima de un cubo de color blanco que hace de piso; se quiere verificar que la esfera caiga bajo el efecto de la gravedad sobre el piso que es el cubo, mediante los siguientes pasos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
       .row(titulo="Esfera sobre cubo").justify-content-center

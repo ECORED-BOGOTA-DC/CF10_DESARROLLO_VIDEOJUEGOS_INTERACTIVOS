@@ -16,7 +16,7 @@
             p.mb-5 En este contenido formativo se abordarán las metodologías ágiles SCRUM y SUM como técnicas para verificar con eficacia los requisitos establecidos, mecánicas o niveles de los videojuegos como se explica en el siguiente video:
           figure.mb-5(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/TykuPDKeR4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           p.text-center.txt-c1(data-aos="fade-right") #[b ¡Buen aprendizaje!]
     
 </template>
