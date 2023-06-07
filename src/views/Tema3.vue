@@ -112,7 +112,8 @@
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 4]. Evento A
+          p.mb-0 #[b Figura 4]
+          p.mb-0 #[i Evento A]
         figure
           img(src='@/assets/curso/tema3/img5.png').m-auto
           figcaption.mt-3 Nota. Flujo del evento A. Hektor docs, (2021). Tipos de datos. https://docs.hektorprofe.net/unity/visual-scripting/tipos-datos/
@@ -152,7 +153,8 @@
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 5]. Mensajes consola
+          p.mb-0 #[b Figura 5]
+          p.mb-0 #[i Mensajes consola]
         figure
           img(src='@/assets/curso/tema3/img6.png').m-auto
           figcaption.mt-3 Nota. Impresión de mensajes del evento A en la ventana de la consola. Hektor docs, (2021). Tipos de datos. https://docs.hektorprofe.net/unity/visual-scripting/tipos-datos/

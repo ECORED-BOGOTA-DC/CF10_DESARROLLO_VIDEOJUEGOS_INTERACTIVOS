@@ -20,7 +20,8 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 1]. #[i Backlog]
+          p.mb-0 #[b Figura 1]
+          p.mb-0 #[i Backlog]
         figure
           img(src='@/assets/curso/tema1/img1.svg').m-auto
           figcaption.mt-4 Nota. Adaptado del Conjunto de tareas priorizadas del #[i backlog], García (2019).
@@ -161,7 +162,8 @@
                 | Se puede diseñar un formato para elaborar el #[i Product backlog], el cual debe indicar claramente la prioridad y la descripción del ítem que debe desarrollar el #[i Scrum Team], observar  el ejemplo de la tabla a continuación:
           .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
-              p.mb-0 #[b Tabla 1]. Ejemplo #[i Product Backlog]
+              p.mb-0 #[b Tabla 1]
+              p.mb-0 #[i Ejemplo Product Backlog]
             .tabla-b.color-acento-contenido.mb-5
               .tabla-b__header
                 h4.mb-0.text-white Nombre del videojuego: La isla de los tesoros escondidos
@@ -210,7 +212,8 @@
                 | También se puede diseñar el formato del #[b #[i Sprint Backlog]] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada #[i Sprint], como se observa en la siguiente tabla:
           .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
-              p.mb-0 #[b Tabla 2]. #[i Sprint Backlog]
+              p.mb-0 #[b Tabla 2]
+              p.mb-0 #[i Sprint Backlog]
             .tabla-b.color-acento-contenido.mb-5
               table
                 tr
@@ -304,7 +307,8 @@
             p En la siguiente figura se observa el #[b #[i Product Backlog]] del juego “La isla de los tesoros escondidos”.
           .col-lg-8.mb-5(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-4
-              p.mb-0 #[b Figura 2]. Plantilla Jira Software
+              p.mb-0 #[b Figura 2]
+              p.mb-0 #[i Plantilla Jira Software]
             figure
               img(src='@/assets/curso/tema1/img6.png').m-auto
               figcaption.mt-3 Nota. #[i Backlog] del juego La isla de los tesoros escondidos.
@@ -312,7 +316,8 @@
             p Las tareas que se han definido en el #[i Sprint Backlog] el programa lo llama Flujo de trabajo, cuyo objetivo es realizar las funciones del mundo 1. Los estados de las tareas se indican por colores en la convención que se encuentra en la parte superior de la figura:
           .col-lg-10.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
-              p.mb-0 #[b Figura 3]. Flujo de trabajo
+              p.mb-0 #[b Figura 3]
+              p.mb-0 #[i Flujo de trabajo]
             figure
               img(src='@/assets/curso/tema1/img7.png').m-auto
               figcaption.mt-3 Nota. Estado de las tareas del #[i Sprint].

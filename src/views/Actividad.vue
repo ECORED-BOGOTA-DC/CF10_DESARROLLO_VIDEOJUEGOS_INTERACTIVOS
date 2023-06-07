@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 #[i Product Backlog] & #[i Sprint Backlog]
-        p.mb-4 #[b Objetivo] Priorizar la pila del #[i Product Backlog] y el #[i Sprint Backlog] para llevar a cabo las iteraciones del desarrollo de un videojuego.
+        p.mb-4 #[b Objetivo]. Priorizar la pila del #[i Product Backlog] y el #[i Sprint Backlog] para llevar a cabo las iteraciones del desarrollo de un videojuego.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
