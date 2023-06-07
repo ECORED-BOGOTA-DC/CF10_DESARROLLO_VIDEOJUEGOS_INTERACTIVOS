@@ -52,7 +52,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
       .row(titulo="Crear el objeto").justify-content-center
         .col-lg-11
-          p Desde el menú en la opción #[i GameObject] se va a seleccionar un objeto 3D que corresponde al cubo:
+          p Desde el menú en la opción GameObject se va a seleccionar un objeto 3D que corresponde al cubo:
           ul.lista-ul--color.lista-ul
             li 
               i.fas.fa-gamepad(style="color: #8979F3")
@@ -61,7 +61,7 @@
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-2
                 img(src='@/assets/curso/tema2/img5.png', style="width:650px").m-auto
-              p.txt-c2.mb-0 Creando un #[i GameObject] en Unity
+              p.txt-c2.mb-0 Creando un GameObject en Unity
             .col-lg-8
               figure.mb-2
                 img(src='@/assets/curso/tema2/img6.png', style="width:750px").m-auto
@@ -177,7 +177,7 @@
             .col-lg-5
               figure.mb-2
                 img(src='@/assets/curso/tema2/img17.png', style="width:650px").m-auto
-              p.txt-c2.mb-0 #[i GameObjects] sobre agua
+              p.txt-c2.mb-0 GameObjects sobre agua
     ModalA(:abrir-modal.sync="modal1")
       .row
         .col-12.p-4
@@ -195,13 +195,13 @@
         .col-12.p-4
           figure.mb-2
             img(src='@/assets/curso/tema2/img17.png', style="width:950px").m-auto
-          p.txt-c3.mb-0 #[i GameObjects] sobre agua
+          p.txt-c3.mb-0 GameObjects sobre agua
     .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema2/img2.svg', style="width:50px").m-auto
       .col
-        h3.mb-0 Importar paquete de #[i Asset Store]
+        h3.mb-0 Importar paquete de Asset Store
     p.mb-4(data-aos="fade-right") Cuando en los paquetes estándar no están los recursos necesarios para el videojuego se pueden importar de la tienda de Unity, esta acción se puede realizar estando en el motor de Unity:
     .tarjeta.tarjeta--azul1.p-4.mb-5(data-aos="fade-left")
       PasosB.color-acento-contenido
@@ -210,7 +210,7 @@
             .row
               .col-lg-6.mb-4.mb-lg-0
                 h3 Tienda Unity
-                p Haciendo clic en la pestaña #[i Asset Store] e inmediatamente el programa se conecta en línea con la tienda.
+                p Haciendo clic en la pestaña Asset Store e inmediatamente el programa se conecta en línea con la tienda.
                 a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
                   span Ampliar imagen
                   |
@@ -224,8 +224,8 @@
           .col-11
             .row
               .col-lg-6.mb-4.mb-lg-0
-                h3 #[i Asset Free]
-                p En este caso se seleccionó un paquete de ciencia ficción de descarga gratuita llamado #[i LowPoly SciFi], el cual se debe descargar haciendo clic en el botón #[i Download].
+                h3 Asset Free
+                p En este caso se seleccionó un paquete de ciencia ficción de descarga gratuita llamado LowPoly SciFi, el cual se debe descargar haciendo clic en el botón #[i Download].
                 a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
                   span Ampliar imagen
                   |
@@ -234,13 +234,13 @@
               .col-lg-6
                 figure.mb-2
                   img(src='@/assets/curso/tema2/img19.png', style="width:650px").m-auto
-                p.txt-c2.mb-0 Descargando el #[i Asset Free LowPoly Scifi].
+                p.txt-c2.mb-0 Descargando el Asset Free LowPoly Scifi.
         .row.justify-content-center(titulo="")
           .col-11
             .row
               .col-lg-6.mb-4.mb-lg-0
-                h3 Adición de #[i Assets Free]
-                p Cuando el paquete ha sido descargado e importado se adiciona a la carpeta de #[i Assets] del proyecto de videojuego que se está desarrollando.
+                h3 Adición de Assets Free
+                p Cuando el paquete ha sido descargado e importado se adiciona a la carpeta de Assets del proyecto de videojuego que se está desarrollando.
                 a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
                   span Ampliar imagen
                   |
@@ -249,13 +249,13 @@
               .col-lg-6
                 figure.mb-2
                   img(src='@/assets/curso/tema2/img20.png', style="width:400px").m-auto
-                p.txt-c2.mb-0 Paquete #[i LowPoly SciFi] adicionado a la carpeta de #[i Assets] en la ventana #[i Project].
+                p.txt-c2.mb-0 Paquete LowPoly SciFi adicionado a la carpeta de #[i Assets] en la ventana #[i Project].
         .row.justify-content-center(titulo="")
           .col-11
             .row
               .col-lg-6.mb-4.mb-lg-0
                 h3 Prototipo
-                p A continuación se observa un prototipo diseñado con los #[i prefabs] del paquete importado #[i LowPoly SciFi Pack], los cuales se pueden disponer en escena de acuerdo con las necesidades del videojuego y la lógica de las mecánicas.
+                p A continuación se observa un prototipo diseñado con los #[i prefabs] del paquete importado LowPoly SciFi Pack, los cuales se pueden disponer en escena de acuerdo con las necesidades del videojuego y la lógica de las mecánicas.
                 a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
                   span Ampliar imagen
                   |
@@ -264,7 +264,7 @@
               .col-lg-6
                 figure.mb-2
                   img(src='@/assets/curso/tema2/img21.png', style="width:600px").m-auto
-                p.txt-c2.mb-0 Armado de un prototipo con los #[i Prefabs] de #[i LowPoly SciFi Pack].
+                p.txt-c2.mb-0 Armado de un prototipo con los #[i Prefabs] de LowPoly SciFi Pack.
     ModalA(:abrir-modal.sync="modal4")
       .row
         .col-12.p-4
@@ -276,19 +276,19 @@
         .col-12.p-4
           figure.mb-2
             img(src='@/assets/curso/tema2/img19.png', style="width:750px").m-auto
-          p.txt-c3.mb-0 Descargando el #[i Asset Free LowPoly Scifi].
+          p.txt-c3.mb-0 Descargando el Asset Free LowPoly Scifi.
     ModalA(:abrir-modal.sync="modal6")
       .row
         .col-12.p-4
           figure.mb-2
             img(src='@/assets/curso/tema2/img20.png', style="width:500px").m-auto
-          p.txt-c3.mb-0 #[i LowPoly SciFi] adicionado a la carpeta de #[i Assets] en la ventana #[i Project].
+          p.txt-c3.mb-0 LowPoly SciFi adicionado a la carpeta de #[i Assets] en la ventana #[i Project].
     ModalA(:abrir-modal.sync="modal7")
       .row
         .col-12.p-4
           figure.mb-2
             img(src='@/assets/curso/tema2/img21.png', style="width:700px").m-auto
-          p.txt-c3.mb-0 Armado de un prototipo con los #[i Prefabs] de #[i LowPoly SciFi Pack].
+          p.txt-c3.mb-0 Armado de un prototipo con los #[i Prefabs] de LowPoly SciFi Pack.
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.bg-c8.p-4.p-lg-0
         .row.align-items-center

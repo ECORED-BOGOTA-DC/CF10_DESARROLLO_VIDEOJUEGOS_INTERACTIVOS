@@ -138,14 +138,15 @@
         .col-lg-11
           p Se va a escribir una prueba unitaria (Test) ayudado de la función Test Runner de Unity para hacer la verificación. Para ello debe activar la función de la siguiente manera:
           ul.lista-ul--color.lista-ul
-            li 
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | Menú -> Window -> Test Runner
+              |
+              p.mb-0 Menú -> Window -> Test Runner
           .row.align-items-end
             .col-lg-5
               figure.mb-2
                 img(src='@/assets/curso/tema4/img12.png', style="width: 350px").m-auto
-              p.txt-c2.mb-0 Activación de función #[i Test Runner] para verificar funcionamiento del juego.
+              p.txt-c2.mb-0 Activación de función Test Runner para verificar funcionamiento del juego.
             .col-lg-7
               a.boton.color-acento-botones.indicador__container(@click="modal1 = true").mb-0.mb-lg-5
                 span Ampliar imagen
@@ -157,20 +158,21 @@
           p Una vez abierta la ventana de #[i Test Runner] se puede arrastrar y ubicar en la parte inferior dentro del espacio de la ventana de proyecto.
           figure.mb-2
             img(src='@/assets/curso/tema4/img13.png', style="").m-auto
-          p.txt-c2.mb-0 La ventana de #[i Test Runner] es colocada en la ventana de Project.
+          p.txt-c2.mb-0 La ventana de Test Runner es colocada en la ventana de #[i Project].
       .row(titulo="<em>Script</em> de <em>Test</em>").justify-content-center
         .col-lg-11
-          p En la ventana de #[i Project] se crea una carpeta que va a contener el #[i Script] donde se van a escribir las líneas de código para verificar que la esfera caiga bajo el efecto de la gravedad sobre el piso que es el cubo. Se va a realizar la prueba en modo #[i play], por lo tanto, se coloca #[i Test Runner] en #[i PlayMode] y se crea el archivo de la siguiente manera:
+          p En la ventana de #[i Project] se crea una carpeta que va a contener el #[i Script] donde se van a escribir las líneas de código para verificar que la esfera caiga bajo el efecto de la gravedad sobre el piso que es el cubo. Se va a realizar la prueba en modo #[i play], por lo tanto, se coloca Test Runner en PlayMode y se crea el archivo de la siguiente manera:
           ul.lista-ul--color.lista-ul
-            li 
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | Menú -> Assets -> Create -> Testing -> PlayMode Test C# Script
+              |
+              p.mb-0 Menú -> Assets -> Create -> Testing -> PlayMode Test C# Script
           figure.mb-2
             img(src='@/assets/curso/tema4/img14.png', style="").m-auto
           p.txt-c2.mb-0 Creación del Script que va a contener el código a ejecutar.
       .row(titulo="<em>Script MyTest</em>").justify-content-center
         .col-lg-11
-          p A la carpeta que se creó se le dio el #[i nombre _Test] y al #[i Script] el nombre #[i MyTest] tal como se muestra en la figura.
+          p A la carpeta que se creó se le dio el nombre _Test y al #[i Script] el nombre MyTest tal como se muestra en la figura.
           figure.mb-2
             img(src='@/assets/curso/tema4/img15.png', style="").m-auto
           p.txt-c2.mb-0 Creación del Script de verificación.
@@ -181,30 +183,38 @@
             .col-lg-5.mb-4.mb-lg-0
               p En las líneas de código marcadas en los puntos:
               ul.lista-ul--color.lista-ul
-                li 
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | El espacio #[i MyTest] se declara público con los #[i GameObject sphere] y #[i cube].
-                li 
+                  |
+                  p.mb-0 El espacio #[i MyTest] se declara público con los GameObject sphere y #[i cube].
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | Se declaran las variables #[i sphere] y #[i cube] que más adelante tomaran el valor de las posiciones.
-                li 
+                  |
+                  p.mb-0 Se declaran las variables #[i sphere] y #[i cube] que más adelante tomaran el valor de las posiciones.
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | Se carga la escena llamada #[i “ScenaSphere”].
-                li 
+                  |
+                  p.mb-0 Se carga la escena llamada “ScenaSphere”.
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | Indica que el #[i Script] se va a ejecutar en #[i PlayMode] en el #[i Test Runner].
-                li 
+                  |
+                  p.mb-0 Indica que el #[i Script] se va a ejecutar en PlayMode en el Test Runner.
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | La sphere está sobre el cube - 5 * mientras la esfera no cambie la posición en el eje y el valor de la variable es nulo. 
-                li 
+                  |
+                  p.mb-0 La sphere está sobre el cube - 5 * mientras la esfera no cambie la posición en el eje y el valor de la variable es nulo. 
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | Si el valor actual de la posición y de la sphera es mayor que el valor y de la posición del cubo, la esfera no cae.
-                li 
+                  |
+                  p.mb-0 Si el valor actual de la posición y de la sphera es mayor que el valor y de la posición del cubo, la esfera no cae.
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | La esfera cambia la posición en el eje y el valor de la variable es 5.
-                li 
+                  |
+                  p.mb-0 La esfera cambia la posición en el eje y el valor de la variable es 5.
+                li.d-flex
                   i.fas.fa-gamepad(style="color: #8979F3")
-                  | Si el valor actual de la posición y de la sphera es menor que el valor y de la posición del cubo la esfera cae.
+                  |
+                  p.mb-0 Si el valor actual de la posición y de la sphera es menor que el valor y de la posición del cubo la esfera cae.
               a.boton.color-acento-botones.indicador__container(@click="modal2 = true").mb-0.mb-lg-5
                 span Ampliar imagen
                 |
@@ -216,12 +226,12 @@
               p.txt-c2.mb-0 Líneas de código escritas en el editor de texto Visual #[i Studio].
       .row(titulo="Activar <em>Test</em>").justify-content-center
         .col-lg-11
-          p Para correr el #[i Test] diríjase al motor Unity a la ventana de #[i Test Runner] y observe que el programa a adicionado archivos que necesita para ejecutar el #[i Script]; la escena debe estar en modo #[i Game], #[i Test Runner] debe estar en #[i PlayMode] y simplemente se debe hacer clic en #[i Run All].
+          p Para correr el #[i Test] diríjase al motor Unity a la ventana de Test Runner y observe que el programa a adicionado archivos que necesita para ejecutar el #[i Script]; la escena debe estar en modo #[i Game], Test Runner debe estar en PlayMode y simplemente se debe hacer clic en Run All.
           .row.align-items-end
             .col-lg-5
               figure.mb-2
                 img(src='@/assets/curso/tema4/img17.png', style="width: 350px").m-auto
-              p.txt-c2.mb-0 Ejecución de los #[i Scripts] que aparecen en #[i Test Runner].
+              p.txt-c2.mb-0 Ejecución de los #[i Scripts] que aparecen en Test Runner.
             .col-lg-7
               a.boton.color-acento-botones.indicador__container(@click="modal3 = true").mb-0.mb-lg-5
                 span Ampliar imagen
@@ -230,35 +240,36 @@
                 .indicador--click(v-if="mostrarIndicador")
       .row(titulo="Mensaje de error").justify-content-center
         .col-lg-11
-          p Al ejecutar #[i Run All]; en la Consola aparece un error en la línea 7 del #[i Script] para ello, se debe ir al editor y resolverlo para volver a ejecutar el #[i Test].
+          p Al ejecutar Run All; en la Consola aparece un error en la línea 7 del #[i Script] para ello, se debe ir al editor y resolverlo para volver a ejecutar el #[i Test].
           figure.mb-2
             img(src='@/assets/curso/tema4/img18.png', style="").m-auto
           p.txt-c2.mb-0 Generación de error en la consola del programa.
       .row(titulo="Modo edición").justify-content-center
         .col-lg-11
-          p Cuando la verificación se hace utilizando el modo de edición, entonces en la ventana de #[i Test Runner] se hace clic en #[i EditMode]. Como se mencionó anteriormente este modo es usado cuando se quiere verificar que un elemento realiza adecuadamente un comportamiento que requiere de cálculo y no se ejecuta en tiempo real.
+          p Cuando la verificación se hace utilizando el modo de edición, entonces en la ventana de Test Runner se hace clic en EditMode. Como se mencionó anteriormente este modo es usado cuando se quiere verificar que un elemento realiza adecuadamente un comportamiento que requiere de cálculo y no se ejecuta en tiempo real.
           figure.mb-2
             img(src='@/assets/curso/tema4/img19.png', style="").m-auto
           p.txt-c2.mb-0 Uso del modo edición en  el testeo.
       .row(titulo="<em>Script</em> de edición").justify-content-center
         .col-lg-11
-          p Una vez activado el modo edición en #[i Test Runner] se debe proceder a crear la prueba que se va a utilizar para hacer la verificación del comportamiento de los elementos en la escena:
+          p Una vez activado el modo edición en Test Runner se debe proceder a crear la prueba que se va a utilizar para hacer la verificación del comportamiento de los elementos en la escena:
           ul.lista-ul--color.lista-ul
-            li 
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | Menu -> Assets -> Create -> Testing -> EditMode Test C# Script
+              |
+              p.mb-0 Menu -> Assets -> Create -> Testing -> EditMode Test C# Script
           figure.mb-2
             img(src='@/assets/curso/tema4/img20.png', style="").m-auto
           p.txt-c2.mb-0 Creación de Script para verificación en modo edición.
       .row(titulo="<em>Script My_Test</em> edición").justify-content-center
         .col-lg-11
-          p El #[I Script My_Test] edición que va a servir de testeo se ha creado bajo la carpeta Editor, automáticamente ensamblada por el programa.
+          p El #[i Script] My_Test edición que va a servir de testeo se ha creado bajo la carpeta Editor, automáticamente ensamblada por el programa.
           figure.mb-2
             img(src='@/assets/curso/tema4/img21.png', style="width: 550px")
           p.mb-0 Creación del #[i Script] de testeo en la carpeta ensamblada por el programa.
       .row(titulo="Clase <em>Test</em>").justify-content-center
         .col-lg-11
-          p La diferencia del #[i EditMode] con el modo #[i PlayMode], radica en que cuando se escriban las líneas de código en el editor de Visual #[i Studio] se deben realizar bajo la clase #[i Test], ya que la clase Unity #[i Test] corresponde al modo #[i Play] o #[i Run time].
+          p La diferencia del EditMode con el modo PlayMode, radica en que cuando se escriban las líneas de código en el editor de Visual #[i Studio] se deben realizar bajo la clase #[i Test], ya que la clase Unity Test corresponde al modo #[i Play] o Run time.
           .row.align-items-end
             .col-lg-5
               figure.mb-2
@@ -275,7 +286,7 @@
         .col-12.p-4
           figure.mb-2
             img(src='@/assets/curso/tema4/img12.png', style="width:450px").m-auto
-          p.txt-c3.mb-0 Activación de función #[i Test Runner] para verificar funcionamiento del juego.
+          p.txt-c3.mb-0 Activación de función Test Runner para verificar funcionamiento del juego.
     ModalA(:abrir-modal.sync="modal2")
       .row
         .col-12.p-4
@@ -287,7 +298,7 @@
         .col-12
           figure.mb-2
             img(src='@/assets/curso/tema4/img17.png', style="width:520px").m-auto
-          p.txt-c3.mb-0 Ejecución de los #[i Scripts] que aparecen en #[i Test Runner].
+          p.txt-c3.mb-0 Ejecución de los #[i Scripts] que aparecen en Test Runner.
     ModalA(:abrir-modal.sync="modal4")
       .row
         .col-12
@@ -301,7 +312,7 @@
             figure
               img(src='@/assets/curso/tema1/img13.svg', style="width:200px").m-auto
           .col-lg-9
-            p.mb-0.me-0.me-lg-3 Para profundizar en el tema con algunos consejos sobre cómo usar #[i Unity Test Framework], consultar el tema #[b “Prueba el código de tu juego con #[i Unity Test Framework”]] que se encuentra dentro del material complementario.
+            p.mb-0.me-0.me-lg-3 Para profundizar en el tema con algunos consejos sobre cómo usar Unity Test Framework, consultar el tema #[b “Prueba el código de tu juego con #[i Unity Test Framework”]] que se encuentra dentro del material complementario.
 
 </template>
 

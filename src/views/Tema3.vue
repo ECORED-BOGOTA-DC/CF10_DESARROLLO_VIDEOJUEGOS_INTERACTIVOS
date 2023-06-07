@@ -37,21 +37,26 @@
         .col-lg-11
           p Dentro de la base de datos de los jugadores, Unity forma grupos diferenciados aspectos como:
           ul.lista-ul--color.lista-ul
-            li 
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | #[b Segmentos del ciclo de vida]: número de días que jugaron desde que ingresaron por primera vez: (1-3) días; (4-7) días; (8-14) días; (7-30) días; (31 -90) días.
-            li 
+              |
+              p.mb-0 #[b Segmentos del ciclo de vida]: número de días que jugaron desde que ingresaron por primera vez: (1-3) días; (4-7) días; (8-14) días; (7-30) días; (31 -90) días.
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | #[b Segmentos geográficos]: de acuerdo con la dirección IP desde donde se conecta el jugador Unity lo geolocaliza. El desarrollador puede definir las zonas geográficas o países que va a incluir.
-            li 
+              |
+              p.mb-0 #[b Segmentos geográficos]: de acuerdo con la dirección IP desde donde se conecta el jugador Unity lo geolocaliza. El desarrollador puede definir las zonas geográficas o países que va a incluir.
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | #[b Segmentos de monetización]: agrupa los jugadores de acuerdo con la cantidad de dinero que gastan en el juego.
-            li 
+              |
+              p.mb-0 #[b Segmentos de monetización]: agrupa los jugadores de acuerdo con la cantidad de dinero que gastan en el juego.
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | #[b Segmentos por plataforma]: clasifica a los jugadores de acuerdo con dos plataformas, los que utilizan Android o los que utilizan IOS.
-            li 
+              |
+              p.mb-0 #[b Segmentos por plataforma]: clasifica a los jugadores de acuerdo con dos plataformas, los que utilizan Android o los que utilizan IOS.
+            li.d-flex
               i.fas.fa-gamepad(style="color: #8979F3")
-              | #[b Segmentos personalizados]: es una categoría de jugadores que se crea combinando reglas de los segmentos anteriores.
+              |
+              p.mb-0 #[b Segmentos personalizados]: es una categoría de jugadores que se crea combinando reglas de los segmentos anteriores.
     p(data-aos="fade-left") Para hacer uso de las métricas de Unity el juego debe estar por lo menos en la versión Beta, en la cual se hacen pruebas de usuario para medir su experiencia. Los pasos a seguir son:
     .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-right")
       .p-4
@@ -175,9 +180,10 @@
                   h3 Crear C# #[i Script]
                   p Ingresar al menú Assets, dar clic en Create y elegir la opción C# #[i Script]:
                   ul.lista-ul--color.lista-ul
-                    li 
+                    li.d-flex
                       i.fas.fa-gamepad(style="color: #8979F3")
-                      | Menu -> Assets -> Create -> C#Script
+                      |
+                      p.mb-0 Menu -> Assets -> Create -> C# Script
                   p Al crear el archivo C# #[i Script] y colocarle el nombre se abre la ventana del Inspector con las líneas de código, que por defecto coloca el programa Unity y que corresponden a la inicialización del programa o #[i #[b Start]], la actualización de los objetos y componentes #[i #[b Update]].
                   a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                     span Ampliar imagen

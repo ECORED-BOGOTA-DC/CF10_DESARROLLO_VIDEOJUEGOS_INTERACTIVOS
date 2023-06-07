@@ -49,24 +49,30 @@
         .dual-txt-deco1
           p(style="position: relative; z-index: 2") El #[i backlog] se materializa en un documento que contiene los requisitos necesarios para obtener el producto final esperado por el cliente. Los aspectos que lo caracterizan se pueden resumir a continuación:
         ul.lista-ul--color.lista-ul
-          li 
+          li.d-flex
             i.fas.fa-gamepad(style="color: #8979F3")
-            | Los ítems o requisitos considerados se deben colocar en una lista en orden de importancia para el cliente, siendo los primeros los de mayor relevancia.
-          li 
+            |
+            p.mb-0 Los ítems o requisitos considerados se deben colocar en una lista en orden de importancia para el cliente, siendo los primeros los de mayor relevancia.
+          li.d-flex
             i.fas.fa-gamepad(style="color: #8979F3")
-            | El #[i backlog] se puede modificar a lo largo del ciclo iterativo adicionando o eliminando ítems  de acuerdo con las prioridades que vayan surgiendo durante el proceso de desarrollo.
-          li 
+            |
+            p.mb-0 El #[i backlog] se puede modificar a lo largo del ciclo iterativo adicionando o eliminando ítems  de acuerdo con las prioridades que vayan surgiendo durante el proceso de desarrollo.
+          li.d-flex
             i.fas.fa-gamepad(style="color: #8979F3")
-            | El refinamiento de los ítems depende de los detalles proporcionados por el cliente, siendo los más refinados aquellos que se colocan al comienzo de la lista.
-          li 
+            |
+            p.mb-0 El refinamiento de los ítems depende de los detalles proporcionados por el cliente, siendo los más refinados aquellos que se colocan al comienzo de la lista.
+          li.d-flex
             i.fas.fa-gamepad(style="color: #8979F3")
-            | El tamaño de los ítems depende del grado de refinamiento (detalles) que posean, siendo los más pequeños aquellos que estén provistos del mayor número de detalles y por el contrario, los de mayor tamaño son los de menor refinamiento.
-          li 
+            |
+            p.mb-0 El tamaño de los ítems depende del grado de refinamiento (detalles) que posean, siendo los más pequeños aquellos que estén provistos del mayor número de detalles y por el contrario, los de mayor tamaño son los de menor refinamiento.
+          li.d-flex
             i.fas.fa-gamepad(style="color: #8979F3")
-            | Cada ítem del #[i backlog] debe asociar la función que se va a desarrollar para cumplir el requisito en un lenguaje claro y entendible por el cliente. 
-          li 
+            |
+            p.mb-0 Cada ítem del #[i backlog] debe asociar la función que se va a desarrollar para cumplir el requisito en un lenguaje claro y entendible por el cliente. 
+          li.d-flex
             i.fas.fa-gamepad(style="color: #8979F3")
-            | Cada ítem del #[i backlog] debe ser independiente uno del otro para poder cambiar el orden de ejecución si así se requiere. 
+            |
+            p.mb-0 Cada ítem del #[i backlog] debe ser independiente uno del otro para poder cambiar el orden de ejecución si así se requiere. 
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img2.png', style="width:550px").m-auto
@@ -156,10 +162,11 @@
             h3.text-center.mt-5.txt-c1(data-aos="fade-right") Para la elaboración de los #[i Product blacklog] y los #[i Sprint blacklog] se pueden utilizar diferentes maneras
           .col-lg-10.mb-4(data-aos="fade-down")
             ol.lista-ol--cuadro
-              li 
+              li.d-flex
                 .lista-ol--cuadro__vineta
                   span a
-                | Se puede diseñar un formato para elaborar el #[i Product backlog], el cual debe indicar claramente la prioridad y la descripción del ítem que debe desarrollar el #[i Scrum Team], observar  el ejemplo de la tabla a continuación:
+                |
+                p.mb-0 Se puede diseñar un formato para elaborar el #[i Product backlog], el cual debe indicar claramente la prioridad y la descripción del ítem que debe desarrollar el #[i Scrum Team], observar  el ejemplo de la tabla a continuación:
           .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Tabla 1]
@@ -206,10 +213,11 @@
                         img(src='@/assets/curso/tema1/img4.png', style="width:240px").m-auto
           .col-lg-10.mb-4(data-aos="fade-down")
             ol.lista-ol--cuadro
-              li 
+              li.d-flex
                 .lista-ol--cuadro__vineta
                   span b
-                | También se puede diseñar el formato del #[b #[i Sprint Backlog]] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada #[i Sprint], como se observa en la siguiente tabla:
+                |
+                p.mb-0 También se puede diseñar el formato del #[b #[i Sprint Backlog]] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada #[i Sprint], como se observa en la siguiente tabla:
           .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Tabla 2]
@@ -300,11 +308,12 @@
                   img(src='@/assets/curso/tema1/img5.png', style="width:350px").m-auto
           .col-lg-10.mb-4(data-aos="fade-down")
             ol.lista-ol--cuadro
-              li 
+              li.d-flex
                 .lista-ol--cuadro__vineta
                   span c
-                | Se pueden utilizar herramientas digitales gratuitas como Jira Software para la elaboración de los #[i Product Backlog] y los #[i Sprint Backlog]. Las plantillas son proporcionadas por el programa:
-            p En la siguiente figura se observa el #[b #[i Product Backlog]] del juego “La isla de los tesoros escondidos”.
+                |
+                p.mb-0 Se pueden utilizar herramientas digitales gratuitas como Jira Software para la elaboración de los #[i Product Backlog] y los #[i Sprint Backlog]. Las plantillas son proporcionadas por el programa:
+            p.ms-4.ps-2 En la siguiente figura se observa el #[b #[i Product Backlog]] del juego “La isla de los tesoros escondidos”.
           .col-lg-8.mb-5(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Figura 2]
