@@ -55,7 +55,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 6]
-          p.mb-0 #[i Metodología SUM]
+          p.mb-0 Metodología SUM
         figure
           img(src='@/assets/curso/tema4/img2.svg').m-auto
           figcaption.mt-3 Nota. Fases de la metodología SUM. Adaptado de Acerenza. Et al. (2009). Una metodología para desarrollo de videojuegos.  https://www.fing.edu.uy/sites/default/files/biblio/22811/asse_2009_16.pdf

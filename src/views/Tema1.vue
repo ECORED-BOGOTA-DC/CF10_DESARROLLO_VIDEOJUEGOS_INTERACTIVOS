@@ -15,7 +15,7 @@
         .row.mb-4
           .col-12.bg-c2
             .p-4
-              p.mb-0 En el contexto del método ágil el diseño de los ciclos de trabajo o iteraciones se acuña el término #[b #[i “Product backlog”]], el cual García define como una lista ordenada y priorizada de tareas a ejecutar en un periodo de tiempo corto para completar un entregable del producto y los ciclos se repiten hasta que se obtenga el producto final.
+              p.mb-0 En el contexto del método ágil el diseño de los ciclos de trabajo o iteraciones se acuña el término #[b  “Product Backlog”], el cual García define como una lista ordenada y priorizada de tareas a ejecutar en un periodo de tiempo corto para completar un entregable del producto y los ciclos se repiten hasta que se obtenga el producto final.
         p.mb-0 El #[i backlog] que se observa en la Figura 1, está ordenado de acuerdo con las funciones o requisitos más importantes considerados por el cliente o dueño del producto y colocados en la parte superior del #[i backlog], dejando en la base los de menor relevancia:
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
@@ -88,7 +88,7 @@
             .p-4.h-100
               .row.align-items-center.h-100
                 .col-12
-                  p.mb-0 Lo primero que se diseña para empezar las tareas es el #[i Product backlog]; que en este caso sería la lista priorizada de las características principales del juego.
+                  p.mb-0 Lo primero que se diseña para empezar las tareas es el Product Backlog; que en este caso sería la lista priorizada de las características principales del juego.
         .row.mb-4
           .col-lg-2.bg-c3
             .p-4
@@ -98,7 +98,7 @@
             .p-4.h-100
               .row.align-items-center.h-100
                 .col-12
-                  p.mb-0 El #[i Product Owner] (PO) es el que decide la prioridad de dichas características, ya que es el responsable ante el cliente de la calidad del producto terminado. Para establecer dicha prioridad es necesario identificar los aspectos más importantes para el jugador en su experiencia con el producto.
+                  p.mb-0 El Product Owner (PO) es el que decide la prioridad de dichas características, ya que es el responsable ante el cliente de la calidad del producto terminado. Para establecer dicha prioridad es necesario identificar los aspectos más importantes para el jugador en su experiencia con el producto.
         .row.mb-4
           .col-lg-2.bg-c3
             .p-4
@@ -108,7 +108,7 @@
             .p-4.h-100
               .row.align-items-center.h-100
                 .col-12
-                  p.mb-0 El #[i Scrum Team] (SC) o equipo desarrollador del videojuego establecerá los ítems de la lista que se trabajarán en cada ciclo iterativo que en adelante se llamará #[i Sprint]; por lo tanto, cada #[i Sprint] es el tiempo de duración de cada ciclo de tareas que puede ser de 1 a 4 semanas, dependiendo del grado de complejidad de los ítems.
+                  p.mb-0 El Scrum Team (SC) o equipo desarrollador del videojuego establecerá los ítems de la lista que se trabajarán en cada ciclo iterativo que en adelante se llamará #[i Sprint]; por lo tanto, cada #[i Sprint] es el tiempo de duración de cada ciclo de tareas que puede ser de 1 a 4 semanas, dependiendo del grado de complejidad de los ítems.
         .row.mb-4
           .col-lg-2.bg-c3
             .p-4
@@ -118,7 +118,7 @@
             .p-4.h-100
               .row.align-items-center.h-100
                 .col-12
-                  p.mb-0 Antes de comenzar cada #[i Sprint], el Scrum Team revisa la lista de ítems a desarrollar, selecciona los ítems del #[i Sprint] definiendo su objetivo y cada persona del equipo asume una responsabilidad sobre los componentes de cada ítem que se compromete a desarrollar, colocando estos elementos en una nueva lista llamada #[i Sprint backlog].
+                  p.mb-0 Antes de comenzar cada #[i Sprint], el Scrum Team revisa la lista de ítems a desarrollar, selecciona los ítems del #[i Sprint] definiendo su objetivo y cada persona del equipo asume una responsabilidad sobre los componentes de cada ítem que se compromete a desarrollar, colocando estos elementos en una nueva lista llamada Sprint Backlog.
     .row.bg-c5.mb-5(data-aos="fade-dow")
       .col-12
         .px-5
@@ -138,19 +138,19 @@
         figure
           img(src='@/assets/curso/tema1/img11.svg')
       .tarjeta.color-acento-contenido.p-3(x="1%" y="20%" numero="1")
-        p.mb-0 Se responsabiliza de elaborar con el cliente la lista de características o requisitos principales que ha de tener el videojuego o #[i Product Backlog].
+        p.mb-0 Se responsabiliza de elaborar con el cliente la lista de características o requisitos principales que ha de tener el videojuego o Product Backlog.
       .tarjeta.color-acento-contenido.p-3(x="14%" y="50%" numero="2")
-        p.mb-0 El equipo desarrollador del producto, observando la lista que determina los items a ejecutar por cada #[i Sprint], comprometiéndose cada miembro con tareas específicas por desarrollar, lo que genera una nueva lista o #[i Sprint Backlog].
+        p.mb-0 El equipo desarrollador del producto, observando la lista que determina los items a ejecutar por cada #[i Sprint], comprometiéndose cada miembro con tareas específicas por desarrollar, lo que genera una nueva lista o Sprint Backlog.
       .tarjeta.color-acento-contenido.p-3(x="10%" y="80%" numero="3")
         p.mb-0 Se asegura de que haya claridad sobre los objetivos y el alcance del producto a desarrollar e igualmente elimina cualquier impedimento para maximizar la productividad.
       .tarjeta.color-acento-contenido.p-3(x="27%" y="30%" numero="4")
-        p.mb-0 Contiene la lista de los elementos que han priorizado el cliente con el #[i Product Owner], refinando los detalles para que los desarrolladores ejecuten en el menor tiempo posible los ítems de la lista.
+        p.mb-0 Contiene la lista de los elementos que han priorizado el cliente con el Product Owner, refinando los detalles para que los desarrolladores ejecuten en el menor tiempo posible los ítems de la lista.
       .tarjeta.color-acento-contenido.p-3(x="50%" y="50%" numero="5")
-        p.mb-0 El equipo reunido realiza la planeación del #[i Sprint] determinando el tiempo que durará de acuerdo con la lista del #[i Sprint Backlog].
+        p.mb-0 El equipo reunido realiza la planeación del #[i Sprint] determinando el tiempo que durará de acuerdo con la lista del Sprint Backlog.
       .tarjeta.color-acento-contenido.p-3(x="47%" y="10%" numero="6")
         p.mb-0 Se realiza una reunión diariamente para asegurarse de que el proceso se está llevando a cabo satisfactoriamente.
       .tarjeta.color-acento-contenido.p-3(x="83%" y="20%" numero="7")
-        p.mb-0 Se revisa el objetivo y el alcance del #[i Sprint] donde se verifica que las tareas que se están desarrollando, están dando cumplimiento a los ítems del #[i Product Backlog].
+        p.mb-0 Se revisa el objetivo y el alcance del #[i Sprint] donde se verifica que las tareas que se están desarrollando, están dando cumplimiento a los ítems del Product Backlog.
       .tarjeta.color-acento-contenido.p-3(x="90%" y="50%" numero="8")
         p.mb-0 Cada día se realiza una retrospectiva del trabajo realizado para identificar los puntos clave en los que se puede mejorar la productividad.
       .tarjeta.color-acento-contenido.p-3(x="92%" y="81%" numero="9")
@@ -166,11 +166,11 @@
                 .lista-ol--cuadro__vineta
                   span a
                 |
-                p.mb-0 Se puede diseñar un formato para elaborar el #[i Product backlog], el cual debe indicar claramente la prioridad y la descripción del ítem que debe desarrollar el #[i Scrum Team], observar  el ejemplo de la tabla a continuación:
+                p.mb-0 Se puede diseñar un formato para elaborar el Product backlog, el cual debe indicar claramente la prioridad y la descripción del ítem que debe desarrollar el Scrum Team, observar  el ejemplo de la tabla a continuación:
           .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Tabla 1]
-              p.mb-0 #[i Ejemplo Product Backlog]
+              p.mb-0 Ejemplo Product Backlog
             .tabla-b.color-acento-contenido.mb-5
               .tabla-b__header
                 h4.mb-0.text-white Nombre del videojuego: La isla de los tesoros escondidos
@@ -217,11 +217,11 @@
                 .lista-ol--cuadro__vineta
                   span b
                 |
-                p.mb-0 También se puede diseñar el formato del #[b #[i Sprint Backlog]] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada #[i Sprint], como se observa en la siguiente tabla:
+                p.mb-0 También se puede diseñar el formato del #[b Sprint Backlog] con el cual el equipo de desarrollo determinará las tareas a ejecutar en cada #[i Sprint], como se observa en la siguiente tabla:
           .col-lg-8.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Tabla 2]
-              p.mb-0 #[i Sprint Backlog]
+              p.mb-0 Sprint Backlog
             .tabla-b.color-acento-contenido.mb-5
               table
                 tr
@@ -239,8 +239,8 @@
                   th(colspan="2" style="background-color: #8979F3").text-white Nº horas de trabajo x día
                   td(style="background-color: #FFFFFF").text-center 8
                 tr(style="background-color: #D6D0FB")
-                  th(colspan="2").text-center Ítem del #[i Product Backlog]
-                  th.text-center Prioridad en el #[i Product Backlog]
+                  th(colspan="2").text-center Ítem del Product Backlog
+                  th.text-center Prioridad en el Product Backlog
                   th.text-center Horas estimadas totales
                   th.text-center Horas de trabajo/día
                   th.text-center Responsable
@@ -301,7 +301,7 @@
                   td.text-center P
             .row
               .col-lg-6.mb-4.mb-lg-0
-                p El #[i Sprint Backlog] está compuesto por tareas que son medidas en horas, teniendo en cuenta las disciplinas de las personas comprometidas en cada tarea y el número de personas con las que el equipo cuenta para llevar a cabo el #[i Sprint].
+                p El Sprint Backlog está compuesto por tareas que son medidas en horas, teniendo en cuenta las disciplinas de las personas comprometidas en cada tarea y el número de personas con las que el equipo cuenta para llevar a cabo el #[i Sprint].
                 p Por ejemplo, si se deben crear 6 animaciones para el juego y solo se cuenta con una persona que se demora 8 horas por día, quiere decir que tardará más de 4 semanas para su elaboración, sobrepasando la duración del #[i Sprint]; lo que quiere decir que esta tarea se debe dividir en subtareas que harán parte de otros Sprint o en su defecto, contactar otro especialista para repartir el trabajo.
               .col-lg-6
                 figure
@@ -312,21 +312,21 @@
                 .lista-ol--cuadro__vineta
                   span c
                 |
-                p.mb-0 Se pueden utilizar herramientas digitales gratuitas como Jira Software para la elaboración de los #[i Product Backlog] y los #[i Sprint Backlog]. Las plantillas son proporcionadas por el programa:
-            p.ms-4.ps-2 En la siguiente figura se observa el #[b #[i Product Backlog]] del juego “La isla de los tesoros escondidos”.
+                p.mb-0 Se pueden utilizar herramientas digitales gratuitas como Jira Software para la elaboración de los Product Backlog y los Sprint Backlog. Las plantillas son proporcionadas por el programa:
+            p.ms-4.ps-2 En la siguiente figura se observa el #[b Product Backlog] del juego “La isla de los tesoros escondidos”.
           .col-lg-8.mb-5(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Figura 2]
-              p.mb-0 #[i Plantilla Jira Software]
+              p.mb-0 Plantilla Jira Software
             figure
               img(src='@/assets/curso/tema1/img6.png').m-auto
               figcaption.mt-3 Nota. #[i Backlog] del juego La isla de los tesoros escondidos.
           .col-lg-10.mb-4(data-aos="fade-down")
-            p Las tareas que se han definido en el #[i Sprint Backlog] el programa lo llama Flujo de trabajo, cuyo objetivo es realizar las funciones del mundo 1. Los estados de las tareas se indican por colores en la convención que se encuentra en la parte superior de la figura:
+            p Las tareas que se han definido en el Sprint Backlog el programa lo llama Flujo de trabajo, cuyo objetivo es realizar las funciones del mundo 1. Los estados de las tareas se indican por colores en la convención que se encuentra en la parte superior de la figura:
           .col-lg-10.mb-5(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-4
               p.mb-0 #[b Figura 3]
-              p.mb-0 #[i Flujo de trabajo]
+              p.mb-0 Flujo de trabajo
             figure
               img(src='@/assets/curso/tema1/img7.png').m-auto
               figcaption.mt-3 Nota. Estado de las tareas del #[i Sprint].
