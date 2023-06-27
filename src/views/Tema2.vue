@@ -181,20 +181,20 @@
     ModalA(:abrir-modal.sync="modal1")
       .row
         .col-12.p-4
-          figure.mb-2
-            img(src='@/assets/curso/tema2/img13.png', style="width:550px").m-auto
+          figure
+            img(src='@/assets/curso/tema2/img13.png', style="width:560px").m-auto
           p.txt-c3.mb-0 #[i Import Package]
     ModalA(:abrir-modal.sync="modal2")
       .row
         .col-12.p-4
-          figure.mb-2
-            img(src='@/assets/curso/tema2/img14.png', style="width:290px").m-auto
+          figure
+            img(src='@/assets/curso/tema2/img14.png', style="width:300px").m-auto
           p.txt-c3.mb-0 #[i Prefabs] de medio ambiente que se incorporarán en el proyecto.
     ModalA(:abrir-modal.sync="modal3")
       .row
         .col-12.p-4
           figure.mb-2
-            img(src='@/assets/curso/tema2/img17.png', style="width:950px").m-auto
+            img(src='@/assets/curso/tema2/img17.png', style="width:1000px").m-auto
           p.txt-c3.mb-0 GameObjects sobre agua
     .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto.pe-0
@@ -255,7 +255,7 @@
             .row
               .col-lg-6.mb-4.mb-lg-0
                 h3 Prototipo
-                p A continuación se observa un prototipo diseñado con los #[i prefabs] del paquete importado LowPoly SciFi Pack, los cuales se pueden disponer en escena de acuerdo con las necesidades del videojuego y la lógica de las mecánicas.
+                p A continuación, se observa un prototipo diseñado con los #[i prefabs] del paquete importado LowPoly SciFi Pack, los cuales se pueden disponer en escena de acuerdo con las necesidades del videojuego y la lógica de las mecánicas.
                 a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
                   span Ampliar imagen
                   |
@@ -269,13 +269,13 @@
       .row
         .col-12.p-4
           figure.mb-2
-            img(src='@/assets/curso/tema2/img18.png', style="width:750px").m-auto
+            img(src='@/assets/curso/tema2/img18.png', style="width:950px").m-auto
           p.txt-c3.mb-0 Utilizando la tienda Unity para importar paquetes prefabricados.
     ModalA(:abrir-modal.sync="modal5")
       .row
         .col-12.p-4
           figure.mb-2
-            img(src='@/assets/curso/tema2/img19.png', style="width:750px").m-auto
+            img(src='@/assets/curso/tema2/img19.png', style="width:950px").m-auto
           p.txt-c3.mb-0 Descargando el Asset Free LowPoly Scifi.
     ModalA(:abrir-modal.sync="modal6")
       .row
@@ -287,7 +287,7 @@
       .row
         .col-12.p-4
           figure.mb-2
-            img(src='@/assets/curso/tema2/img21.png', style="width:700px").m-auto
+            img(src='@/assets/curso/tema2/img21.png', style="width:800px").m-auto
           p.txt-c3.mb-0 Armado de un prototipo con los #[i Prefabs] de LowPoly SciFi Pack.
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.bg-c8.p-4.p-lg-0

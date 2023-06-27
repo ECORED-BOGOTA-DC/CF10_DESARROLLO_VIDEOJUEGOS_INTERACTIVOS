@@ -120,7 +120,7 @@
           p.mb-0 #[b Figura 4]
           p.mb-0 Evento A
         figure
-          img(src='@/assets/curso/tema3/img5.png').m-auto
+          img(src='@/assets/curso/tema3/img1.gif').m-auto
           figcaption.mt-3 Nota. Flujo del evento A. Hektor docs, (2021). Tipos de datos. https://docs.hektorprofe.net/unity/visual-scripting/tipos-datos/
     .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto.pe-0
@@ -257,31 +257,31 @@
     ModalA(:abrir-modal.sync="modal3")
       .row
         .col-12.p-4
-          figure.mb-2
-            img(src='@/assets/curso/tema3/img7.png', style="width:750px").m-auto
+          figure
+            img(src='@/assets/curso/tema3/img7.png', style="width:950px").m-auto
           p.txt-c3.mb-0 Creando un #[i Script] para imprimir mensajes del evento
     ModalA(:abrir-modal.sync="modal4")
       .row
         .col-12.p-4
-          figure.mb-2
-            img(src='@/assets/curso/tema3/img8.png', style="width:950px").m-auto
+          figure
+            img(src='@/assets/curso/tema3/img8.png', style="width:1000px").m-auto
           p.txt-c3.mb-0 #[i Script] para imprimir los eventos en la consola
     ModalA(:abrir-modal.sync="modal5")
       .row
         .col-12.p-4
-          figure.mb-2
-            img(src='@/assets/curso/tema3/img9.png', style="width:850px").m-auto
+          figure
+            img(src='@/assets/curso/tema3/img9.png', style="width:1000px").m-auto
           p.txt-c3.mb-0 Se anexó la función #[i Debug.Log]
     ModalA(:abrir-modal.sync="modal6")
       .row
         .col-12.p-4
-          figure.mb-2
-            img(src='@/assets/curso/tema3/img10.png', style="width:780px").m-auto
+          figure
+            img(src='@/assets/curso/tema3/img10.png', style="width:800px").m-auto
           p.txt-c3.mb-0 Aplicación del #[i Script Mensajes] a un #[i GameObject] de la escena. Unity
     ModalA(:abrir-modal.sync="modal7")
       .row
         .col-12.p-4
-          figure.mb-2
+          figure
             img(src='@/assets/curso/tema3/img11.png', style="width:750px").m-auto
           p.txt-c3.mb-0 #[i Debug.log] que imprime la bienvenida al juego
     .row.justify-content-center(data-aos="fade-right")
